@@ -62,6 +62,9 @@
 (require 'starter-kit-ruby)
 (require 'starter-kit-js)
 
+;; Add Haskell support
+(require 'starter-kit-haskell)
+
 (regen-autoloads)
 (load custom-file 'noerror)
 
