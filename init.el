@@ -62,6 +62,9 @@
 (require 'starter-kit-ruby)
 (require 'starter-kit-js)
 
+;; Add color-theme support
+(require 'starter-kit-color-theme)
+
 (regen-autoloads)
 (load custom-file 'noerror)
 
