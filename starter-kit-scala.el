@@ -1,7 +1,7 @@
 ;; Scala configuration
 
 ;; Yasnippet
-(add-to-list 'load-path (concat dotfiles-dir "/plugins")
+(add-to-list 'load-path (concat dotfiles-dir "/plugins"))
 (require 'yasnippet-bundle)
 
 ;; Yasnippet
@@ -39,4 +39,3 @@
 
 ;; MINI HOWTO:
 ;; Open .scala file. M-x ensime (once per project)
-
