@@ -76,4 +76,9 @@
   (mapc #'load (directory-files user-specific-dir nil ".*el$")))
 (if (file-exists-p user-specific-config) (load user-specific-config))
 
+;; Reactivate Menu/Scroll/Tool bar mode
+(if (fboundp 'menu-bar-mode) (menu-bar-mode 1))
+;; (if (fboundp 'tool-bar-mode) (tool-bar-mode 1))
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode 1))
+
 ;;; init.el ends here
