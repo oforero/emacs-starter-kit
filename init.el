@@ -68,6 +68,9 @@
 ;; Add color-theme support
 (require 'starter-kit-color-theme)
 
+;; Add Haskell support
+(require 'starter-kit-haskell)
+
 (regen-autoloads)
 (load custom-file 'noerror)
 
