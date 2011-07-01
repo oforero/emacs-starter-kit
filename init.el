@@ -71,6 +71,9 @@
 ;; Add Haskell support
 (require 'starter-kit-haskell)
 
+;; Add Scala support
+(require 'starter-kit-scala)
+
 (regen-autoloads)
 (load custom-file 'noerror)
 
