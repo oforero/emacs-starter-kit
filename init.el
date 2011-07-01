@@ -65,6 +65,9 @@
 ;; Add mac keys
 (require 'starter-kit-mackeys)
 
+;; Add color-theme support
+(require 'starter-kit-color-theme)
+
 (regen-autoloads)
 (load custom-file 'noerror)
 
