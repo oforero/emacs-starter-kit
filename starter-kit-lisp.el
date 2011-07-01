@@ -40,6 +40,9 @@
   (interactive)
   (message "Deprecated in favour of M-x swank-clojure-project. Install swank-clojure from ELPA."))
 
+;;; Scheme
+(require 'quack)
+
 ;;; Enhance Lisp Modes
 
 (eval-after-load 'paredit
