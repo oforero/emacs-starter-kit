@@ -62,6 +62,9 @@
 (require 'starter-kit-ruby)
 (require 'starter-kit-js)
 
+;; Add mac keys
+(require 'starter-kit-mackeys)
+
 (regen-autoloads)
 (load custom-file 'noerror)
 
